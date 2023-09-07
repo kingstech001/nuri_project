@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(14, 14, 43);
+    color: aqua;
+    height: 100vh;
+    width: 100%;
+}
+main{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    width: 100%;
+}
+.container{
+    width: 50%;
+}
+.slack-display-image{
+    width: 50%;
+    background-color: aqua;
+    color:rgb(14, 14, 43) ;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.image{
+    width: 100%;
+}
+img{
+    width: 100%;
+}
+p{
+    font-size: 20px;
+    margin-top: 5px;
+}
+article{
+    width: 50%;
+}
+h1{
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+article .data-item{
+    margin: 5px 0;
+}
