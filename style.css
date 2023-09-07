@@ -56,3 +56,20 @@ h1{
 article .data-item{
     margin: 5px 0;
 }
+
+@media (max-width:600px) {
+        main{
+            flex-wrap: wrap;
+            text-align: center;
+            padding: 2rem;
+        }
+        .container{
+        width: 100%;
+    }
+    .slack-display-image{
+        width: 80%;
+    }
+    article{
+    width: 100%;
+}
+}
