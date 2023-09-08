@@ -6,58 +6,40 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <main>
-        <div class="container">
-            <div class="slack-display-image">
-                <div class="Image">
-                    <img src="./image/1691668960616.jpg" alt="Kings" data-testid="SlackDisplayImage">
-                </div>
-                <p class="slack-Image" data-testid="SlackDisplayImage">
-                    Slack Display Image
+    <main class="container">
+        <section class="section-1">
+            <div>
+                <img src="./image/1691668960616.jpg" alt="Kings" data-testid="SlackDisplayImage" width="200px">
+            </div>
+            <div>
+                <h2 data-testid="SlackUserName">
+                    Kings
+                </h2>
+            </div>
+        </section>
+
+        <secion class="currentTimeAndDayOfTheWeek">
+            <div class="CurrDayodtheWeek" data-testid="CurrentDayofTheWeek">
+            </div>
+            <div class="CurrTime"  data-testid="CurrentUTCTime">
+            </div>
+        </secion>
+
+        <section class="trackAndGitHub">
+            <div>
+                <p data-testid="myTrack">
+                    Frontend
                 </p>
             </div>
-        </div>
-        <article>
-            <div class="data-item">
-                <label for="slack-name" data-testid="SlackUserName">
-                    Slack User Name :
-                </label>
-                <span data-testid="SlackUserName">
-                    Kings
-                </span>
+            <div>
+                <p data-testid="gitHubURL">
+                    <a href="https://github.com/kingstech001/nuri_project">
+                        GitHub URL
+                    </a>
+                </p>
             </div>
-            <div class="data-item">
-                <label for="slack-Image" data-testid="CurrentDayofTheWeek">
-                    Current Day of the Week :
-                </label>
-                <span class="CurrDayodtheWeek" data-testid="CurrentDayofTheWeek">
-                </span>
-            </div>
-            <div class="data-item">
-                <label for="CurrentUTCTime" data-testid="CurrentUTCTime">
-                    Current UTC Time :
-                </label>
-                <span class="CurrTime"  data-testid="CurrentUTCTime">
+        </section>
             
-                </span>
-            </div>
-            <div class="data-item">
-                <label for="My track" data-testid="MyTrack">
-                    Track:
-                </label>
-                <span data-testid="MyTrack">
-                    Frontend
-                </span>
-            </div>
-            <div class="data-item">
-                <label for="My track" data-testid="githubURL">
-                    Git Hub URL :
-                </label>
-                <a href="https://github.com/kingstech001/nuri_project" data-testid="githubURL" target="_blank">
-                    GitHub Repository
-                </a>
-            </div>
-        </article>
     </main>
     <script src="./script.js"></script>
 </body>
