@@ -9,12 +9,12 @@
     <main class="container">
         <section class="section-1">
             <div>
-                <img src="./image/1691668960616.jpg" alt="Kings" data-testid="SlackDisplayImage" width="200px">
-            </div>
-            <div>
                 <h2 data-testid="SlackUserName">
                     Kings
                 </h2>
+            </div>
+            <div>
+                <img src="./image/1691668960616.jpg" alt="Kings" data-testid="SlackDisplayImage" width="200px">
             </div>
         </section>
 
@@ -41,6 +41,13 @@
             </div>
         </section>
     </main>
-    <script src="./script.js"></script>
+    <script>
+        let time = new Date().getTime();
+        document.querySelector(".currenttime").innerHTML = time;
+        const daysOfWeek = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+        const now = new Date();
+        const dayOfWeek = daysOfWeek[now.getUTCDay()];
+        document.querySelector(".CurrentDayodtheWeek").textContent = dayOfWeek;
+    </script>
 </body>
 </html>
