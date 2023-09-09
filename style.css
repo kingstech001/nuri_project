@@ -11,7 +11,12 @@ body{
     justify-content: center;
     align-items: center;
     background-color: rgb(13, 13, 29);
-    color: darkgoldenrod;
+    color: rgb(13, 13, 29);
+}
+main{
+    background-color: darkgoldenrod;
+    padding: 1rem;
+    border-radius: 10px;
 }
 a{
     color: darkgoldenrod;
