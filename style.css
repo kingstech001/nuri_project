@@ -3,7 +3,9 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
 body{
     display: flex;
     height: 100vh;
@@ -13,21 +15,26 @@ body{
     background-color: rgb(13, 13, 29);
     color: rgb(13, 13, 29);
 }
+
 main{
     background-color: darkgoldenrod;
     padding: 1rem;
     border-radius: 10px;
 }
+
 a{
     color: rgb(13, 13, 29);
 }
+
 a:hover{
     color: aqua;
     border-bottom: 2px solid;
 }
+
 img{
     border-radius: 10px;
 }
+
 p {
     font-size: 16px;
 }
