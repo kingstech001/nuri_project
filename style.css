@@ -19,7 +19,7 @@ main{
     border-radius: 10px;
 }
 a{
-    color: darkgoldenrod;
+    color: rgb(13, 13, 29);
 }
 a:hover{
     color: aqua;
